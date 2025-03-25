@@ -9,3 +9,9 @@ const api = axios.create({
 export const getPosts = async () => {
 return api.get("/posts")
 }
+
+// delete method 
+
+export const deletePost = async (id) => {
+    return api.delete(`/posts/${id}`)
+}
