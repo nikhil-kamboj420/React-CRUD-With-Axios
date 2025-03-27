@@ -27,6 +27,9 @@ body {
   font-weight: 800;
 }
 
+ol {
+  margin-top: 3rem;
+}
 .li-shadow {
   box-shadow: 2px 2px 10px hsl(207, 29%, 18%);
   border-left: 2px solid white;
@@ -76,6 +79,9 @@ form {
   body {
     font-size: 60%;
   }
+  .form-container {
+    max-width: 80vw;
+  }
   ol {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -86,7 +92,7 @@ form {
     }
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 766px) {
   body {
     font-size: 58%;
   }
