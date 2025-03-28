@@ -1,6 +1,7 @@
 {
   "name": "react-crud-with-axios",
   "private": true,
+  "homepage": "https://nikhil-kamboj420.github.io/React-CRUD-With-Axios",
   "version": "0.0.0",
   "type": "module",
   "scripts": {

@@ -2,7 +2,8 @@
 import { useEffect, useState } from "react";
 import { deletePost, getPosts } from "../api/PostApi";
 import { Form } from "./Form";
-import { BottomBtn } from "./bottomBtn";
+import { BottomBtn } from "./BottomBtn";
+
 
 // Define the Posts component
 export const Posts = () => {
@@ -37,7 +38,8 @@ export const Posts = () => {
         setData(filteredData);
       }
     } catch (error) {
-      console.log("Failed to delete the post:", res.status);
+      console.log("Failed to delete the post:", error.message);
+
     }
   };
 
